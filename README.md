@@ -36,6 +36,7 @@ scientific correctness.
 6. This code uses RA/Dec to identify target and reference stars and determine pixel positions. If you trust the WCS information in your data headers, go to step 7.
 
 If not, go to astrometry.net, upload the first file from cal_phot/aligned, download the wcs.fits file and new-image.fits file, use them to overwrite values in the header by running fix_wcs.py. This will update the headers in cal_phot/aligned.
+
 7. Run phot_lightcurve.py
 
 ## Notes
