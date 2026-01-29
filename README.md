@@ -43,6 +43,7 @@ If not, go to astrometry.net, upload the first file from cal_phot/aligned, downl
 - The pipeline prioritizes reproducibility and validation over the abstract.
 - World Coordinate System (WCS) information is used to establish pixel positions.
 - Relative flux normalization matches established practice in time-domain astronomy.
+- Just a reminder: choose reference stars carefully. 
 
 ## Dependencies
 - Python
